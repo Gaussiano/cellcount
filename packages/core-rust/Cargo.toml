@@ -1,0 +1,14 @@
+[package]
+name = "cellcount_core"
+version = "0.1.0"
+edition = "2021"
+
+[lib]
+name = "cellcount_core"
+crate-type = ["cdylib"]
+
+[dependencies]
+pyo3 = { version = "0.22", features = ["extension-module"] }
+
+[env]
+PYO3_USE_ABI3_FORWARD_COMPATIBILITY = "1"
