@@ -1,0 +1,3 @@
+name: Hello Pipeline
+steps:
+  - block: hello_world

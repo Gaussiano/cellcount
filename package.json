@@ -1,0 +1,9 @@
+{
+  "name": "cellcount",
+  "private": true,
+  "version": "0.1.0",
+  "scripts": {
+    "dev": "pnpm --filter desktop dev",
+    "build": "pnpm --filter desktop build"
+  }
+}
